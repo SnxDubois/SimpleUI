@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String firstName = prenom.getText().toString();
                 String lastName = nom.getText().toString();
-                Toast toast = Toast.makeText(getApplicationContext(), "Congratulations " + firstName + lastName, Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "Congratulations " + firstName + " " + lastName, Toast.LENGTH_SHORT);
                 toast.show();
 
             }
